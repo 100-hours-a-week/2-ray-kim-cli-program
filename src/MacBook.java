@@ -1,6 +1,5 @@
-// MacBook 클래스 (AppleProduct를 상속)
-class MacBook extends AppleProduct {
-    String storage;
+public class MacBook extends AppleProduct {
+    private String storage;
 
     public MacBook(String name, int price, String model, String storage) {
         super(name, price, model);

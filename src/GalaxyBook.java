@@ -1,6 +1,5 @@
-// GalaxyBook 클래스 (SamsungProduct를 상속)
-class GalaxyBook extends SamsungProduct {
-    String storage;
+public class GalaxyBook extends SamsungProduct {
+    private String storage;
 
     public GalaxyBook(String name, int price, String model, String storage) {
         super(name, price, model);
